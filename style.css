@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none; 
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: #1f242d ;
+    --second-bg-color: #323946 ;
+    --third-bg-color: #0ef ;
+}
+body{
+    background: var(--bg-color);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav.nav1{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+header nav div{
+    display: inline-block;
+}
+
+header.header1 nav.nav1 div.div1 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+header.header1 nav.nav1 div.div1 label{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
+    float: left;
+    margin-top: 4px;
+    text-transform: uppercase;
+    width: 710px;
+}
+header.header1 nav.nav1 div.div2 ul.ul1{
+    float: right;
+    margin-top: -34px;
+    
+}
+header.header1 nav.nav1 div.div2 ul.ul1 li{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    transition: color .3s;
+    
+}
+header.header1 nav.nav1 div.div2 ul.ul1 a.a1 li{
+    color: var(--third-bg-color);
+    border: 4px var(--third-bg-color);
+    border-radius: 3px;
+
+}
+header.header1 nav.nav1 div.div2 ul.ul1 li:hover{
+    color: var(--third-bg-color);
+    border: 4px var(--third-bg-color);
+    border-radius: 3px;
+}
+section.section1 div.div1{
+    margin-top: 150px;
+    margin-left: 180px;
+    margin-right: 100px;
+    width: 500px;
+    height: 600px;
+    margin-bottom: -600px;
+}
+section.section1 div.div2{
+    margin-top: 70px;
+    margin-bottom: -600px;
+}
+section.section1 div.main-div{
+    display: flex;
+}
+section.section1 div img{
+    width: 400px;
+    height: 500px;
+
+}
+section.section1 div.div2 img{
+    margin: 30px;
+    margin-right: 80px;
+    border-radius: 20px;
+    transition: box-shadow .3s;
+    
+}
+section.section1 div.div2 img:hover{
+    box-shadow: 0 0 1rem var(--third-bg-color);
+
+}
+div.div1 h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+div.div1 h1{
+    font-size: 40px;
+}
+div.div1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.main-div div.div1 div svg{
+    margin-right: 20px;
+    
+    margin-bottom: 40px;
+    color: var(--third-bg-color);
+    
+}
+div.div1 div a{
+    margin-top: 80px;
+    font-size: 2rem;
+    background-color: var(--third-bg-color);
+    color: var(--bg-color);
+    transform: scale(1);
+    border-radius: 20px;
+    box-sizing: 30px;
+    padding: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--third-bg-color);
+    letter-spacing: .1rem;
+    transition: color .3s;
+
+}
+div.div1 div a:hover{
+    border: 4px;
+    border-color: 3px var(--third-bg-color);
+    background-color: var(--bg-color);
+    color: var(--third-bg-color);
+}
+span {
+    color: var(--third-bg-color);
+    font-size: 35px;
+
+}
+section.section2{
+    margin-top: 600px;
+   
+}
+
+section.section2 h1{
+    font-size: 3rem;
+}
+section.section2 div.div1{
+    display: flex;
+}
+
+section.section2 div.div1 img{
+    width: 470px;
+    height: 500px;
+    margin: 40px;
+    margin-right: 80px;
+    margin-left: 120px;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem var(--third-bg-color);
+}
+
+section.section2 div.div1 div.div1div1{
+    margin-top: 140px;
+    margin-left: 40px;
+    margin-right: 100px;
+
+}
+section.section2 div.div1 div.div1div1 a{
+    background-color: var(--third-bg-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    font-size: 2rem;
+    padding: 5px;
+    box-shadow: 0 0 1rem var(--third-bg-color);
+    transition: color .3s;
+}
+section.section2 div.div1 div.div1div1 a:hover{
+    color: #0ef;
+    border: 4px var(--third-bg-color);
+    background-color: var(--bg-color);
+
+}
+
+section.section3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+section.section3::before {
+    background: url('computer1.webp') no-repeat center center;
+    content: "";
+    margin-left: -672px;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+section.section3 h1.heading{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+
+section.section3 form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+section.section3 form div.input-box{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.section3 form div.input-box input{
+    width: 40%;
+    padding: 1.2rem;
+    font-size: .7rem;
+    color: var(--bg-color);
+    background-color: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .4rem 0;
+}
+
+
+section.section3 form textarea{
+    width: 80%;
+    padding: 1.2rem;
+    font-size: .7rem;
+    color: var(--bg-color);
+    background-color: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .4rem 0;
+
+}
+
+section.section3 form input.btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--third-bg-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    font-size: 2rem;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--third-bg-color);
+    transition: color .3s;
+}
+
+section.section3 form input.btn:hover{
+    color: var(--third-bg-color);
+    border: 4px var(--third-bg-color);
+    background-color: var(--bg-color);
+
+}
+
+section.section4{
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 4rem;
+
+}
+
+section.section4 h1{
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+section.section4 div.section4div1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+section.section4 div.section4div1 div.services{
+    width: 17rem;
+    height: 26rem;
+    background-color: var(--second-bg-color);
+    border-radius: 3rem;
+    margin: 20px;
+    /*box-shadow: 0 0 1rem var(--third-bg-color);*/
+    border: 4px var(--third-bg-color);
+    transition: box-shadow .3s;
+    transition: transform .5s;
+    
+}
+
+section.section4 div.section4div1 div.services:hover{
+    box-shadow: 0 0 1rem var(--third-bg-color);
+    transform: scale(1.04);
+
+
+}
+section.section4 div.section4div1 div.services ul{
+    color: var(--third-bg-color);
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    
+}
+
+section.section4 div.section4div1 div.services ul svg{
+    height: 46px;
+    width: 46px;
+    margin-right: 32px;
+    margin-left: 47px;
+    display: inline-block;
+    font-size: 72px;
+}
+
+section.section4 div.section4div1 div.services p{
+    font-size: .7rem;
+    margin: 2rem;
+}
+section.section4 div.section4div1 div.services a{
+    background-color: var(--third-bg-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    padding: 5px;
+    box-shadow: 0 0 1rem var(--third-bg-color);
+    transition: color .3s;
+
+}
+section.section4 div.section4div1 div.services a:hover{
+    color: #0ef;
+    border: 4px var(--third-bg-color);
+    background-color: var(--bg-color);
+
+}
+section.section5{
+    margin-bottom: 4rem;
+}
+
+section.section5 h2.section5-h2{
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+section.section5 div.project-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    gap: 2.5rem;
+
+}
+section.section5 div.project-container div.project{
+    width: 320px;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    margin-left: 45px;
+}
+
+
+section.section5 div.project-container div.project img{
+    width: 100%;
+    transition: .5s ease;
+}
+
+section.section5 div.project-container div.project:hover img{
+    transform: scale(1.1);
+}
+
+section.section5 div.project-container div.project div.projectexplane{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1), var(--third-bg-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+section.section5 div.project-container div.project:hover div.projectexplane{
+    transform: translateY(0);
+
+}
+
+.projectexplane h3{
+    font-size: 2rem;
+}
+
+.projectexplane p{
+    font-size: 1rem;
+    margin: 0.3rem 0 1rem;
+}
